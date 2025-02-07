@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "title": "Mehmet Akgül - Otel Yönetim Ve Bulunabilirlik Hizmeti",
+    "description": "Lüks ve konforlu konaklama deneyimi için otelimizi keşfedin. Modern odalar, spa ve wellness merkezi, özel restoranımız ile hizmetinizdeyiz.",
+    "keywords": "mehmet akgül, otel müdürü, Otel iş ilanlar, otel müdürü mehmet, bursa otelleri, otel konaklama, uygun tur ve otel hizmeti"
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "projects": "Projelerim",
+    "skills": "Yetkinliklerim",
+    "about": "Hakkımda",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "slide1": "Lüks Konaklama Deneyimi Ve Tur Hizmeti",
+    "slide2": "%100 Müşteri Memnuniyeti",
+    "slide3": "Doğa Ve Şehir Otellerinde Konaklama İmkanı"
+  },
+  "projects": {
+    "title": "Projelerimizden Örnekler",
+    "imageAlt": "Proje detayı",
+    "web": {
+      "title": "Modern Otel Web Tasarım",
+      "description": "Modernize ve minimalist otel tasarımı ile harika görseller ve %100 SEO uyumlu otel web sayfası ve reklam çalışması"
+    },
+    "design": {
+      "title": "Otel Odaları Ve Ürün Çekimleri",
+      "description": "İsteğe ve konsepte uygun oda görselleri ve ürün çekimleri ile hem google hemde kendi sosyal medyalarınızda ön plana çıkın"
+    },
+    "menu": {
+      "title": "Otel Restoran Menü Tasarımları",
+      "description": "Otel restoranlarına uygun menü ve görsel tasarımlar ile ilgi çekici ve müşterilerinizi kendilerini özel hissettirecek tasarımlar"
+    }
+  }
+}

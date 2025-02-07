@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "title": "Mehmet Akgül - Hotel Management And Availability Service",
+    "description": "Discover our hotel for a luxurious and comfortable accommodation experience. We are at your service with modern rooms, spa and wellness center, and our special restaurant.",
+    "keywords": "mehmet akgul, hotel manager, hotel job listings, hotel manager mehmet, bursa hotels, hotel accommodation, affordable tour and hotel service"
+  },
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "skills": "Skills",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "slide1": "Luxury Accommodation Experience And Tour Service",
+    "slide2": "100% Customer Satisfaction",
+    "slide3": "Accommodation in Nature and City Hotels"
+  },
+  "projects": {
+    "title": "Sample Projects",
+    "imageAlt": "Project detail",
+    "web": {
+      "title": "Modern Hotel Web Design",
+      "description": "Hotel website and advertising work with modernized and minimalist hotel design with great visuals and 100% SEO compatibility"
+    },
+    "design": {
+      "title": "Hotel Rooms And Product Photography",
+      "description": "Stand out on both Google and your own social media with room visuals and product shots tailored to your requests and concept"
+    },
+    "menu": {
+      "title": "Hotel Restaurant Menu Designs",
+      "description": "Attractive designs with suitable menu and visual designs for hotel restaurants that will make your customers feel special"
+    }
+  }
+}
