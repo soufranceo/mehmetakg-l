@@ -31,5 +31,43 @@
       "title": "Otel Restoran Menü Tasarımları",
       "description": "Otel restoranlarına uygun menü ve görsel tasarımlar ile ilgi çekici ve müşterilerinizi kendilerini özel hissettirecek tasarımlar"
     }
+  },
+  "skills": {
+    "title": "Uzman Olduğum Alanlar",
+    "web": {
+      "title": "Web Tasarım",
+      "description": "Otellere özel sektörel web sayfası ve SEO çalışmasıyla her zaman ön planda olan modernize tasarımlar"
+    },
+    "seo": {
+      "title": "SEO Optimizasyonu",
+      "description": "Özel SEO çalışmasıyla google sıralamalarında ve rakip firmaları geride bırakacak yenilikçi çalışmalar"
+    },
+    "hybrid": {
+      "title": "Hibrit Uygulamalar",
+      "description": "Uzaktan otel ve sosyal medya yönetimi ile destekleyici ve çözüm odaklı organizasyonlar"
+    },
+    "data": {
+      "title": "Veri Yönetimi",
+      "description": "Müşteri, satış ve reklam verileri analizi ile güncel ve analitik çözümler"
+    },
+    "media": {
+      "title": "Sosyal Medya ve Dijital Pazarlama",
+      "description": "Firma ve hizmetlere yönelik özel reklam ve medya görsel tasarımlar ile ön plana çıkaran içerikler"
+    },
+    "advertising": {
+      "title": "Reklam Yönetimi",
+      "description": "Google ve meta reklamlarında SEO destekli ve bölgesel ve küresel reklam çalışmaları"
+    },
+    "hosting": {
+      "title": "Özel Web Domain",
+      "description": "Kalıcı ve firmaya değer katan özel domain adresleri ve host bağlantı desteği güncellemeleri"
+    },
+    "sales": {
+      "title": "Satış Stratejileri",
+      "description": "Hizmetlere ve bölgeye özel satış stratejileri ve kampanyalar oluşturma"
+    }
+  },
+  "about": {
+    "description": "Turizm sektöründe 17 yılı aşkın tecrübem ile sırasıyla Ulaştırma ve acente işletmeciliği, Konaklama tesisi yönetimi, Suit home işletmeciliği, Restoran işletmecili ve Otel yöneticiliği ile kariyerimi Turizm alanında çok fonksiyonlu geliştirecek gerekli donanım ve yetkinliklerimi kazandım. Kendimi Front-End, ve tasarım alanında turizm sektörü odaklı geliştirdim. Halen Otel müdürlüğü yapmakta ve hibrit iş modeli ile çoğu yeri ve yabancı işletmeye uzaktan aktif destek vermekteyim"
   }
 }

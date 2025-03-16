@@ -26,7 +26,7 @@ const Contact = () => {
           }`}
         >
           <div className="bg-gray-50 p-8 rounded-lg shadow-md">
-            <h3 className="text-2xl font-semibold mb-6">{t('contact.info')}</h3>
+            <h3 className="text-2xl font-semibold mb-6">{t('contact info')}</h3>
             <div className="space-y-4">
               <a
                 href={whatsappUrl}
@@ -49,7 +49,7 @@ const Contact = () => {
           </div>
 
           <div className="bg-gray-50 p-8 rounded-lg shadow-md">
-            <h3 className="text-2xl font-semibold mb-6">{t('contact.form.title')}</h3>
+            <h3 className="text-2xl font-semibold mb-6">{t('contact')}</h3>
             <form className="space-y-4">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-gray-700">

@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://www.mehmetakgül.com/sitemap.xml
+Sitemap: https://your-hotel-domain.com/sitemap.xml

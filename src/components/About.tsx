@@ -48,7 +48,7 @@ const About = () => {
                 }`}>
                   <div className="bg-gray-50 p-4 rounded-lg">
                     <h4 className="font-semibold text-lg mb-2">{t('about.experience')}</h4>
-                    <p className="text-gray-600">17+ {t('about.years')}</p>
+                    <p className="text-gray-600">17+ {t('Years')}</p>
                   </div>
                 </div>
               </div>

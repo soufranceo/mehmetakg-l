@@ -31,5 +31,43 @@
       "title": "Hotel Restaurant Menu Designs",
       "description": "Attractive designs with suitable menu and visual designs for hotel restaurants that will make your customers feel special"
     }
+  },
+  "skills": {
+    "title": "Areas of Expertise",
+    "web": {
+      "title": "Web Design",
+      "description": "Modernized designs that always stand out with sector-specific web pages and SEO work specialized for hotels"
+    },
+    "seo": {
+      "title": "SEO Optimization",
+      "description": "Innovative solutions with specialized SEO work to outperform competitors in Google rankings"
+    },
+    "hybrid": {
+      "title": "Hybrid Applications",
+      "description": "Supportive and solution-oriented organizations with remote hotel and social media management"
+    },
+    "data": {
+      "title": "Data Management",
+      "description": "Current and analytical solutions through customer, sales, and advertising data analysis"
+    },
+    "media": {
+      "title": "Social Media and Digital Marketing",
+      "description": "Content that highlights businesses with custom advertising and media visual designs for companies and services"
+    },
+    "advertising": {
+      "title": "Advertising Management",
+      "description": "Regional and global advertising campaigns with SEO support in Google and Meta ads"
+    },
+    "hosting": {
+      "title": "Custom Web Domain",
+      "description": "Permanent and value-adding custom domain addresses with hosting connection support updates"
+    },
+    "sales": {
+      "title": "Sales Strategies",
+      "description": "Creating service and region-specific sales strategies and campaigns"
+    }
+  },
+  "about": {
+    "description": "With over 17 years of experience in the tourism sector, I have gained the necessary expertise through various roles including Transportation and Travel Agency Management, Accommodation Facility Management, Suite Home Operations, Restaurant Management, and Hotel Management, developing my career in tourism in a multifunctional way. I have specialized in Front-End development and design specifically for the tourism sector. Currently, I serve as a Hotel Manager while providing active remote support to many local and foreign businesses through a hybrid work model."
   }
 }

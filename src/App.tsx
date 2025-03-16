@@ -1,3 +1,9 @@
+/**
+ * Hotel Management Website
+ * Backup Date: 06.02.2025
+ * Author: Mehmet Akgül
+ */
+
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';

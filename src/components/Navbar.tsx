@@ -17,20 +17,6 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Menü veya dil seçici dışında bir yere tıklandığında menüleri kapat
-  useEffect(() => {
-    const handleClickOutside = (event: MouseEvent) => {
-      const target = event.target as HTMLElement;
-      if (!target.closest('.mobile-menu') && !target.closest('.lang-menu')) {
-        setIsOpen(false);
-        setIsLangMenuOpen(false);
-      }
-    };
-
-    document.addEventListener('click', handleClickOutside);
-    return () => document.removeEventListener('click', handleClickOutside);
-  }, []);
-
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
@@ -82,23 +68,15 @@ const Navbar = () => {
           
           <div className="md:hidden flex items-center space-x-2">
             <button
-              onClick={(e) => {
-                e.stopPropagation();
-                setIsLangMenuOpen(!isLangMenuOpen);
-                setIsOpen(false);
-              }}
-              className="p-2 rounded-md text-gray-800 hover:bg-gray-100 transition-colors lang-menu"
+              onClick={() => setIsLangMenuOpen(!isLangMenuOpen)}
+              className="p-2 rounded-md text-gray-800 hover:bg-gray-100 transition-colors"
               aria-label="Toggle language menu"
             >
               <Globe size={24} />
             </button>
             <button
-              onClick={(e) => {
-                e.stopPropagation();
-                setIsOpen(!isOpen);
-                setIsLangMenuOpen(false);
-              }}
-              className="p-2 rounded-md text-gray-800 hover:bg-gray-100 transition-colors mobile-menu"
+              onClick={() => setIsOpen(!isOpen)}
+              className="p-2 rounded-md text-gray-800 hover:bg-gray-100 transition-colors"
               aria-label="Toggle menu"
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
@@ -109,7 +87,7 @@ const Navbar = () => {
 
       {/* Mobil dil seçici menüsü */}
       {isLangMenuOpen && (
-        <div className="md:hidden absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 py-1 animate-fade-in lang-menu">
+        <div className="md:hidden absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 py-1 animate-fade-in">
           <div className="px-4 py-2">
             <LanguageSelector />
           </div>
@@ -118,7 +96,7 @@ const Navbar = () => {
 
       {/* Ana mobil menü */}
       {isOpen && (
-        <div className="md:hidden animate-fade-in-down mobile-menu">
+        <div className="md:hidden animate-fade-in-down">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white shadow-lg">
             {menuItems.map((item, index) => (
               <button
